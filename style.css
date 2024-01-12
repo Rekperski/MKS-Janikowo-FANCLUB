@@ -237,3 +237,8 @@ main h1 {
     max-height: 160px; 
     object-fit: contain;
 }
+@media only screen and (max-width: 767px) {
+    body {
+        background-color: red;
+    }
+}
