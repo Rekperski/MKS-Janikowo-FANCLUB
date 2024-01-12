@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Nunito:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Montserrat&family=Nunito:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+}
+header {
+    background-color: #1C1C1C;
+    display: flex;
+    width: 100%;
+}
+footer {
+    background-color: #1C1C1C;
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    font-family: "Heebo", sans-serif;
+}
+.gora {
+    display: flex;
+    float: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.gora1 {
+    display: flex;
+    padding: 10px;
+    float: center;
+    justify-content: center;
+    align-items: center;
+}
+.gora1 img {
+    height: 20px;
+}
+.sociale {
+    display: flex;
+    padding: 10px;
+    float: center;
+    justify-content: center;
+    align-items: center;
+}
+.sociale a {
+    padding: 10px;
+}
+.sociale img {
+    height: 20px;
+}
+.gora1 p {
+    font-family: "Heebo", sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: #fff;
+    margin-top: 5px;
+    
+}
+.gora1 img {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.logoes {
+    width: 25%;
+}
+.logo {
+    width: 100px;
+    margin-left: 25px;
+}
+.menu {
+    display: flex;
+    background-color: #DF0101;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.menu h1 {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.menu h1:hover {
+    background-color: #CF0101;
+}
+.menu a {
+    text-decoration: none;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown ul {
+    display: none;
+    position: absolute;
+    text-align: center;
+    list-style-type: none;
+    background-color: #DF0101;
+    width: 113px;
+    margin-left: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.dropdown a {
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+}
+.dropdown li:hover {
+    background-color: #CF0101;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.rozgrywki:hover + ul,
+.dropdown ul:hover {
+    display: block;
+}
+.klub {
+    width: 93px;
+}
+.klub:hover + ul,
+.dropdown ul:hover {
+    display:block;
+}
+main {
+    display: flex;
+}
+.maintop {
+    width: 50%;
+}
+.dp {
+    width: 25%;
+    height: 100%;
+}
+.dp img {
+    width: 550px;
+}
+.lista {
+    width: 100%;
+}
+.imie {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.imie h1 {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+}
+.imie h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    color: #7B7D7D;
+}
+.statystyki {
+    border: 3px solid #000;
+    width: 100%;
+}
+.liczby {
+    display: flex;
+}
+.statystyki {
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.statystyki div {
+    padding-left: 50px;
+}
+.alf {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.alf h1 {
+    font-family: "Montserrat", sans-serif;
+    padding-top: 15px;
+}
+.alf h2 {
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+    color: #7B7D7D;
+    padding-bottom:15px;
+}
+.sezon h1 {
+    font-family: "Montserrat", sans-serif;
+    padding-top: 30px;
+}
+.mecze {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    border: 2px solid #000;
+    padding: 10px;
+    border-radius: 15px;
+}
+.mecz {
+    display: flex;
+}
+.data {
+    padding-right: 50px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+}
+.data h3 {
+    padding-top: 5px;
+    color: #7B7D7D;
+}
+.data h2, h3 {
+    font-size: 15px;
+}
+.gospo {
+    width: 400px;
+}
+.gospodarz {
+    display: flex;
+}
+.goscie {
+    display: flex;
+}
+.gospodarz img {
+    width: 30px;
+}
+.gospodarz h2 {
+    padding-top: 5px;
+    font-size: 15px;
+    padding-left: 5px;
+}
+.goscie img {
+    width: 30px;
+    padding-top: 10px;
+}
+.goscie h2 {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.trakt {
+    text-align: left;
+    display: grid;
+    align-content: center;
+    width: 350px;
+}
+.card img {
+    width: 20px;;
+}
+.minuty h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: normal;
+}
+.wynik {
+    text-align: right;
+}
+.wynikgospodarz h2 {
+    font-weight: bold;
+    font-size: 15px;
+}
+.wynikgoscie h2 {
+    font-size: 15px;
+    padding-top: 30px;
+}
+.lawka {
+    font-style: italic;
+}
+.przegrana {
+    font-weight: normal;
+}

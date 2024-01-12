@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Nunito:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Montserrat&family=Nunito:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+}
+header {
+    background-color: #1C1C1C;
+    display: flex;
+    width: 100%;
+}
+footer {
+    background-color: #1C1C1C;
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    font-family: "Heebo", sans-serif;
+}
+.gora {
+    display: flex;
+    float: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.gora1 {
+    display: flex;
+    padding: 10px;
+    float: center;
+    justify-content: center;
+    align-items: center;
+}
+.gora1 img {
+    height: 20px;
+}
+.sociale {
+    display: flex;
+    padding: 10px;
+    float: center;
+    justify-content: center;
+    align-items: center;
+}
+.sociale a {
+    padding: 10px;
+}
+.sociale img {
+    height: 20px;
+}
+.gora1 p {
+    font-family: "Heebo", sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: #fff;
+    margin-top: 5px;
+    
+}
+.gora1 img {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.logoes {
+    width: 25%;
+}
+.logo {
+    width: 100px;
+    margin-left: 25px;
+}
+.menu {
+    display: flex;
+    background-color: #DF0101;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.menu h1 {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.menu h1:hover {
+    background-color: #CF0101;
+}
+.menu a {
+    text-decoration: none;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown ul {
+    display: none;
+    position: absolute;
+    text-align: center;
+    list-style-type: none;
+    background-color: #DF0101;
+    width: 113px;
+    margin-left: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.dropdown a {
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+}
+.dropdown li:hover {
+    background-color: #CF0101;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.rozgrywki:hover + ul,
+.dropdown ul:hover {
+    display: block;
+}
+.klub {
+    width: 93px;
+}
+.klub:hover + ul,
+.dropdown ul:hover {
+    display:block;
+}
+main {
+    display: flex;
+}
+.maintop h1 {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.maintop h2 {
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    font-size: 15px;
+}
+.dp {
+    width: 25%;
+    height: 100%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: "Montserrat", sans-serif;
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+th {
+    background-color: #DF0101;
+    color: #fff;
+    font-weight: bold;
+}
+td {
+    font-weight: 600px;
+}
+.team-logo {
+    width: 30px;
+    margin-right: 10px;
+}
+.team-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team-namet {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.team-namete {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.team-namete img {
+    margin-left: 10px;
+}

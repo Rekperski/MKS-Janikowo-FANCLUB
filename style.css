@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Nunito:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Montserrat&family=Nunito:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+}
+header {
+    background-color: #1C1C1C;
+    display: flex;
+    width: 100%;
+}
+footer {
+    background-color: #1C1C1C;
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    font-family: "Heebo", sans-serif;
+}
+.gora {
+    display: flex;
+    float: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.gora1 {
+    display: flex;
+    padding: 10px;
+    float: center;
+    justify-content: center;
+    align-items: center;
+}
+.gora1 img {
+    height: 20px;
+}
+.sociale {
+    display: flex;
+    padding: 10px;
+    float: center;
+    justify-content: center;
+    align-items: center;
+}
+.sociale a {
+    padding: 10px;
+}
+.sociale img {
+    height: 20px;
+}
+.gora1 p {
+    font-family: "Heebo", sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: #fff;
+    margin-top: 5px;
+    
+}
+.gora1 img {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.logoes {
+    width: 25%;
+}
+.logo {
+    width: 100px;
+    margin-left: 25px;
+}
+.menu {
+    display: flex;
+    background-color: #DF0101;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.menu h1 {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.menu h1:hover {
+    background-color: #CF0101;
+}
+.menu a {
+    text-decoration: none;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown ul {
+    display: none;
+    position: absolute;
+    text-align: center;
+    list-style-type: none;
+    background-color: #DF0101;
+    width: 113px;
+    margin-left: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.dropdown a {
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+}
+.dropdown li:hover {
+    background-color: #CF0101;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.rozgrywki:hover + ul,
+.dropdown ul:hover {
+    display: block;
+}
+.klub {
+    width: 93px;
+}
+.klub:hover + ul,
+.dropdown ul:hover {
+    display:block;
+}
+main {
+    display: flex;
+}
+main h1 {
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: #1C1C1C;
+    color: #fff;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.maintop {
+    width: 100%;
+    margin-top: 10px;
+}
+.displaymecz {
+    display:flex;
+    width: 100%;
+}
+.dp {
+    width: 25%;
+    height: 100%;
+}
+.pierwszymecz {
+    display: flex;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+    margin: 30px;
+}
+.pierwszymecz img {
+    width: 50px;
+    padding: 5px;
+}
+.pierwszymecz h2 {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    padding: 5px;
+    color: #A4A4A4;
+}
+.pierwszymecz h3 {
+    font-family: "Montserrat", sans-serif;
+    padding: 5px;
+}
+.pierwszymecz h4 {
+    font-family: "Montserrat", sans-serif;
+    padding: 5px;
+    font-size: 15px;
+}
+.pierwszymecz h5 {
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 10px;
+}
+.gospodarze {
+    width: 25%;
+    text-align: center;
+    float: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.wynik {
+    width: 50%;
+    float: center;
+    text-align: center;
+}
+.goscie {
+    width: 25%;
+    text-align: center;
+    float: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.ostatniemecze {
+    width: 50%;
+}
+.newsborder {
+    display: flex;
+}
+.news {
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+.news img {
+    width: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sponsor-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sponsor-logo {
+    margin: 15px;
+}
+.sponsor-logo img {
+    max-width: 200px; 
+    max-height: 160px; 
+    object-fit: contain;
+}
