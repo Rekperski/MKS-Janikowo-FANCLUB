@@ -42,6 +42,15 @@ footer {
 .gora1 img {
     height: 20px;
 }
+.gora1 h1 {
+    display: none;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
 .sociale {
     display: flex;
     padding: 10px;
@@ -82,6 +91,25 @@ footer {
     justify-content: center;
     text-align: center;
 }
+.menu ul {
+    display: flex;
+}
+.menuItem li {
+    list-style-type: none;
+    padding: 10px;
+}
+.menuItem li:hover {
+    background-color: #CF0101;
+    transition: 0.2s;
+}
+.menuItem a {
+    text-decoration:  none;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+.menutel {
+    display: none;
+}
 .menu h1 {
     font-family: Arial, sans-serif;
     padding: 10px;
@@ -95,41 +123,6 @@ footer {
 }
 .menu a {
     text-decoration: none;
-}
-.dropdown {
-    position: relative;
-}
-.dropdown ul {
-    display: none;
-    position: absolute;
-    text-align: center;
-    list-style-type: none;
-    background-color: #DF0101;
-    width: 113px;
-    margin-left: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-.dropdown a {
-    color: #fff;
-    font-family: "Nunito", sans-serif;
-}
-.dropdown li:hover {
-    background-color: #CF0101;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-.rozgrywki:hover + ul,
-.dropdown ul:hover {
-    display: block;
-}
-.klub {
-    width: 93px;
-}
-.klub:hover + ul,
-.dropdown ul:hover {
-    display:block;
 }
 main {
     display: flex;
@@ -181,4 +174,51 @@ main {
 .lista h3:hover {
     background-color: #DF0101;
     transition: all 0.4s ease-in-out;
+}
+@media only screen and (max-width: 767px) {
+    .gora1 p{
+        display: none;
+    }
+    .gora1 img {
+        display: none;
+    }
+    .gora1 h1 {
+        display: flex;
+    }
+    .menu h1 {
+        display: flex;
+    }
+    .newsborder {
+        display: grid;
+    }
+    .menuItem li{
+        display: none;
+    }
+    .menutel {
+        background-color: #DF0101;
+        width: 100%;
+        display: block;
+    }
+    .menuItemtel a {
+        color: #fff;
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+    }
+    .menuItemtel a:hover {
+        border: solid 2px #CF0101;
+        padding: 5px;
+        border-radius: 20px;
+    }
+    .menuItemtel li {
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .dp {
+        display: none;
+    }
+    .maintop {
+        width: 85%;
+    }
 }
