@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Nunito:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Montserrat&family=Nunito:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+}
+header {
+    background-color: #1C1C1C;
+    display: flex;
+    width: 100%;
+}
+footer {
+    background-color: #1C1C1C;
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    font-family: "Heebo", sans-serif;
+}
+.gora {
+    display: flex;
+    float: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.gora1 {
+    display: flex;
+    padding: 10px;
+    float: center;
+    justify-content: center;
+    align-items: center;
+}
+.gora1 img {
+    height: 20px;
+}
+.gora1 h1 {
+    display: none;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.sociale {
+    display: flex;
+    padding: 10px;
+    float: center;
+    justify-content: center;
+    align-items: center;
+}
+.sociale a {
+    padding: 10px;
+}
+.sociale img {
+    height: 20px;
+}
+.gora1 p {
+    font-family: "Heebo", sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: #fff;
+    margin-top: 5px;
+    
+}
+.gora1 img {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.logoes {
+    width: 25%;
+}
+.logo {
+    width: 100px;
+    margin-left: 25px;
+}
+.menu {
+    display: flex;
+    background-color: #DF0101;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.menu ul {
+    display: flex;
+}
+.menuItem li {
+    list-style-type: none;
+    padding: 10px;
+}
+.menuItem li:hover {
+    background-color: #CF0101;
+    transition: 0.2s;
+}
+.menuItem a {
+    text-decoration:  none;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+.menutel {
+    display: none;
+}
+main {
+    display: flex;
+}
+main h1 {
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: #1C1C1C;
+    color: #fff;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.maintop {
+    width: 100%;
+    margin-top: 10px;
+}
+.displaymecz {
+    display:flex;
+    width: 100%;
+}
+.dp {
+    width: 25%;
+    height: 100%;
+}
+.pierwszymecz {
+    display: flex;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+    margin: 30px;
+}
+.pierwszymecz img {
+    width: 50px;
+    padding: 5px;
+}
+.pierwszymecz h2 {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    padding: 5px;
+    color: #A4A4A4;
+}
+.pierwszymecz h3 {
+    font-family: "Montserrat", sans-serif;
+    padding: 5px;
+}
+.pierwszymecz h4 {
+    font-family: "Montserrat", sans-serif;
+    padding: 5px;
+    font-size: 15px;
+}
+.pierwszymecz h5 {
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 10px;
+}
+.gospodarze {
+    width: 25%;
+    text-align: center;
+    float: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.wynik {
+    width: 50%;
+    float: center;
+    text-align: center;
+}
+.goscie {
+    width: 25%;
+    text-align: center;
+    float: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.ostatniemecze {
+    width: 50%;
+}
+.newsborder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.news {
+    margin-top: 30px;
+    padding: 5px;
+}
+.news img {
+    width: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+.sponsor-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sponsor-logo {
+    margin: 15px;
+}
+.sponsor-logo img {
+    max-width: 200px; 
+    max-height: 160px; 
+    object-fit: contain;
+}
+@media only screen and (max-width: 767px) {
+    .gora1 p{
+        display: none;
+    }
+    .gora1 img {
+        display: none;
+    }
+    .gora1 h1 {
+        display: flex;
+    }
+    .menu h1 {
+        display: flex;
+    }
+    .newsborder {
+        display: grid;
+    }
+    .menuItem li{
+        display: none;
+    }
+    .menutel {
+        background-color: #DF0101;
+        width: 100%;
+        display: block;
+    }
+    .menuItemtel a {
+        color: #fff;
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+    }
+    .menuItemtel a:hover {
+        border: solid 2px #CF0101;
+        padding: 5px;
+        border-radius: 20px;
+    }
+    .menuItemtel li {
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .dp {
+        display: none;
+    }
+    .maintop h1 {
+        font-size: 30px;
+        width: 97.5%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .displaymecz {
+        display:grid;
+    }
+    .ostatniemecze {
+        width: 100%;
+    }
+    .news {
+        border: 1px solid none;
+    }
+    .sponsor-logos {
+        display: grid;
+    }
+}
