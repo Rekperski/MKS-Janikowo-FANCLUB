@@ -67,6 +67,15 @@ footer {
     margin-right: 5px;
     margin-left: 10px;
 }
+.gora1 h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    display: none;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
 .logoes {
     width: 25%;
 }
@@ -81,6 +90,25 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+.menu ul {
+    display: flex;
+}
+.menuItem li {
+    list-style-type: none;
+    padding: 10px;
+}
+.menuItem li:hover {
+    background-color: #CF0101;
+    transition: 0.2s;
+}
+.menuItem a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+.menutel {
+    display: none;
 }
 .menu h1 {
     font-family: Arial, sans-serif;
@@ -175,4 +203,55 @@ main {
 }
 .maintop h2 {
     margin-top: 50px;
+}
+@media only screen and (max-width: 768px) {
+    .gora1 p {
+        display: none;
+    }
+    .gora1 img {
+        display: none;
+    }
+    .gora1 h1 {
+        display: flex;
+    }
+    .menuItem li {
+        display: none;
+    }
+    .menutel {
+        background-color: #DF0101;
+        width: 100%;
+        display: block;
+    }
+    .menuItemtel a {
+        color: #fff;
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+    }
+    .menuItemtel li {
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .dp {
+        display: none;
+    }
+    .tlo img {
+        width: 97%;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+    .tlo {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .zawodnicy {
+        display: grid;
+    }
+    .karta {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 }
